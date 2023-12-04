@@ -5,99 +5,83 @@
     box-sizing: border-box;
 }
 /* require media */
-@media only screen and ( max-width: 600px ) and ( orientation:landscape ){
-    .header ,main{
-        width: 57rem;
+@media ( max-width: 400px ){
+    /* 1 */
+    header{
+        width: 400px!important;
+        height: auto!important;
+        font-size: 0.44rem!important;
+        padding: 0.8rem!important;
     }
-    .container {
-        justify-content: center;
-        max-width: 80rem;
-        margin: 0 auto;
+    nav{
+        gap: 0.8rem!important;
     }
-    .footer{
-        padding: 0 10rem!important;
-        margin-left: 80rem!important;
-        justify-content: center!important;
+    .logo{
+        height: 0.5rem!important;
     }
-}
-@media only screen and ( min-width: 601px ){
-    .header ,main{
-        width: 67rem;
+    .header-nav a:last-child {
+        background-color: #e67e22;
+        color: #fff;
+        font-weight: 100;
+        padding: 0.39rem 0.5rem!important;
+        border-radius: 9px;
     }
-}
-@media only screen and ( min-width: 768px ){
-    .header ,main{
-        width: 56rem;
-    }
-}
-@media only screen and ( max-width: 992px ){
-    .header ,main{
-        width: 70rem;
-    }
-    .footer{
-        padding: 6rem 29rem!important;
-    }
-    .footer-heading {
-        font-size: 1.5rem!important;
-    }
-    .section-featured {
-    padding: 5rem!important;
-    }
+    /* 2 */
     .section-hero{
-        padding: 5rem 0!important;
+        width: 400px!important;
+        height: auto!important;
+        padding: 0.8rem!important;
     }
-    .section-meals {
-    padding: 6rem 3.5rem!important;
+    .hero{
+        max-width: 20rem!important;
+        display: grid!important;
+        grid-template-columns: 1fr!important;
+        gap: 1rem!important;
+        align-items: center!important;
     }
-    .section-pricing {
-    padding: 6rem 2rem!important;
+    .heading-primary {
+        font-size: 1rem!important;
+        letter-spacing: 1px!important;
+        margin-bottom: 0.8rem!important;
+        margin: 0 1rem 0 2rem;
     }
-    .container {
-    padding: 0 3rem!important;
+    .hero-description {
+        font-size: 0.44rem!important;
+        margin-bottom: 0.8rem!important;
+        margin: 0 1rem 0 2rem;
     }
-    .pri-container{
-        padding: 0 7rem 0 10.5rem!important;
+    .btn,
+    .btn:link,
+    .btn:visited {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 0.44rem!important;
+        padding: 0.3rem 0.5rem!important;
+        margin-bottom: 0.8rem!important;
     }
-    .section-how {
-    padding: 6rem 6rem!important;
+    .btn-full{
+        margin: 0 0rem 0 2rem!important;
     }
-    .section-cta {
-    padding: 6rem 6rem!important;
-}
-    .hero {
-    max-width: 50rem!important;
-    display: grid;
-    grid-template-columns: 2fr!important;
-    gap: 4rem;
+    .delivered-meals{
+        margin: 0 1rem 0 2rem!important;
+    }
+    .delivered-imgs img {
+        height: 1.8rem!important;
+        width: 1.7rem!important;
+    }
+    .delivered-text {
+        font-size: 0.4rem!important;
     }
     .hero-img{
-        width: 90%!important;
+        width: 65%!important;
+        margin-left: 0rem!important;
     }
-    .div-hero-img{
+    .div-hero-img {
+        grid-row: 1!important;
         text-align: center!important;
-    }
-    .header{
-        height: 8rem!important;
-        font-size: 1.4rem!important;
+        padding: 1rem 0rem!important;
     }
 }
-@media only screen and ( min-width: 992px ){
-    .header ,main{
-        width: 88rem;
-    }
-    .footer{
-            padding: 6rem 40rem!important;
-    }
-    .footer-heading {
-        font-size: 1.5rem!important;
-    }
-}
-@media only screen and ( min-width: 1200px ){
-    .header ,main{
-        width: 89rem;
-    }
-}
-
 /*******************/
 body {
     font-family: 'Rubik', sans-serif;
