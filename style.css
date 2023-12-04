@@ -8,7 +8,6 @@
 @media ( max-width: 400px ){
     /* 0 */
     header{
-        width: 400px!important;
         height: auto!important;
         font-size: 0.5rem!important;
         padding: 0.8rem!important;
@@ -28,7 +27,6 @@
     }
     /* 1 */
     .section-hero{
-        width: 400px!important;
         height: auto!important;
         padding: 0 0.8rem 0.8rem!important;
     }
@@ -85,7 +83,6 @@
     }
     /* 2 */
     .section-featured {
-        width: 400px!important;
         height: auto!important;
         padding: 2rem 0.8rem 0.5rem!important;
     }
