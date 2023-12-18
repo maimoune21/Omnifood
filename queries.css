@@ -1614,9 +1614,6 @@
         }
 }
 @media ( min-width: 1201px ){
-    .section-hero{
-        padding: 4.7rem!important;
-    }
     .hero-img{
         width: 100%!important;
         margin-left: 0rem!important;
